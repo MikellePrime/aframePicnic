@@ -12,12 +12,12 @@
                 <img id="skyTexture" src="outsideSunset.jpg">
                 <!-->peaceful music to start playing when the scene loads<-->
                 <audio src="Wandering Soul - Asher Fulero.mp3" autoplay preload></audio>
-                <!-->the models I created in Maya compiled as a scene...I removed the materials<-->
+                <!-->the models I created in Maya compiled as a scene...I removed the materials to prevent loading issues<-->
                 <a-asset-item id="daPicnicScene" src="daPicnic2.obj"></a-asset-item>
             </a-assets>
-            <a-obj-model src="#daPicnicScene"></a-obj-model>
+            <a-obj-model src="#daPicnicScene" color="#476585"></a-obj-model>
             <a-sky src="#skyTexture"></a-sky>
-            <a-entity camera look-controls position="-5 4 3"></a-entity>
+            <a-entity camera look-controls position="1.7 7.8 11.4" rotation="-11 13 0"></a-entity>
         </a-scene>
     </body>
 </html>

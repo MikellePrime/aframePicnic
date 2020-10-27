@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <title></title>
+        <script src="https://aframe.io/releases/1.0.4/aframe.min.js"></script>
+    </head>
+    <body>
+        <a-scene>
+            <a-assets>
+                <img id="skyTexture" src="outsideSunset.jpg">
+                <!-->peaceful music to start playing when the scene loads<-->
+                <audio src="Wandering Soul - Asher Fulero.mp3" autoplay preload></audio>
+                <!-->the models I created in Maya compiled as a scene<-->
+                <a-asset-item id="daPicnicScene" src="daPicnic.obj"></a-asset-item>
+                <a-asset-item id="materials" src="daPicnic.mtl"></a-asset-item>
+            </a-assets>
+            <a-obj-model src="#daPicnicScene" mtl="#materials"></a-obj-model>
+            <a-sky src="#skyTexture"></a-sky>
+        </a-scene>
+    </body>
+</html>

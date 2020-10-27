@@ -11,3 +11,4 @@ Here are my references:
 
 * The song playing is "Wandering Soul" by Asher Fulero
 * The 360 img is from the Equirectangular group on [Flickr](https://www.flickr.com/groups/equirectangular/)
+* Picnic reference image Alexandra K., found on [Unsplash](https://unsplash.com/photos/NdcH-WxzWgo)
